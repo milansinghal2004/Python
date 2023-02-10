@@ -1,0 +1,11 @@
+# Milan SInghal
+# 10-02-2023
+
+for _ in range(int(input())):
+    n=int(input());
+    arr = list(map(int,input().split()));
+    count=0;
+    for i in arr:
+        if arr.count(i)>count:
+            count = arr.count(i)
+    print(n-count) 
