@@ -1,0 +1,6 @@
+# Milan Singhal
+# 12-01-2023
+
+for _ in range(int(input())):
+    x, y = map(int,input().split())
+    print(10*x + 90*y)
