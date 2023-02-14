@@ -1,0 +1,9 @@
+# MILAN SINGHAL
+#14-02-2023
+
+for i in range(int(input())):
+    a,b=map(int,input().split(" "))
+    if a+1<=b:
+        print("YES")
+    else:
+        print("NO")
