@@ -1,0 +1,12 @@
+# MILAN SINGHAL
+# 15-02-2023
+
+# cook your dish here
+x = int(input())
+for x in range(x+1, 0):
+    h = int(input())
+    if(h>=80):
+        print("yEs")
+    else:
+        print("No")
+    x = x - 1
