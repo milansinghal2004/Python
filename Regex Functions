@@ -1,0 +1,31 @@
+#findall
+import re
+str = "I met Franklin and Martin in Tuticorin"
+print("Orignal String: ", str)
+pattern = "in"
+match = re.findall(pattern, str)
+print(match)
+
+#search
+import re
+str = "I met Franklin and Martin in Tuticorin"
+print("Original String is :", str)
+pattern = "in"
+search = re.search(pattern, str)
+if search:
+  print("Match Found")
+else:
+  print("No match found")
+
+import re
+str = "I met Franklin and Martin in Tuticorin"
+print("Original String is :", str)
+pattern = r"in"
+search = re.split(pattern, str)
+print(search)
+
+import re
+str = "I met Franklin and Martin in Tuticorin"
+print("Original String is :", str)
+search = re.sub("Martin","Astin", str)
+print(search)
