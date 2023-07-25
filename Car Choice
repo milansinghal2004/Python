@@ -8,7 +8,7 @@ for _ in range(t):
     if (y1/x1<y2/x2):
         print (-1)
     elif (y1/x1>y2/x2):
-        print (1)
+        print (1) 
     else:
         print (0)
     
