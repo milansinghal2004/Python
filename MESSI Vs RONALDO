@@ -1,0 +1,8 @@
+# cook your dish here
+a, b, x, y = input().split()
+if((2*a)+b)>((2*x)+y):
+    print("Messi")
+elif((2*a)+b)<((2*x)+y):
+    print("Ronaldo")
+elif(((2*a)+b)==((2*x)+y)):
+    print("Equal")
