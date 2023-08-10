@@ -1,0 +1,9 @@
+# cook your dish here
+x = int(input())
+for i in range(x):
+    n = int(input())
+    m = int(input())
+    if(m-n>=0):
+        print("YES\n")
+    else:
+        print("NO\n")
