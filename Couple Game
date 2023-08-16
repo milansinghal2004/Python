@@ -1,0 +1,6 @@
+# cook your dish here
+t = int(input())
+for i in range(0,t):
+    g = int(input())
+    b = int(input())
+    print(b-g,"\n")
