@@ -3,7 +3,7 @@
 
 # cook your dish here
 x = int(input())
-for x in range(x+1, 0):
+for x in range(x+1, 0): 
     h = int(input()) 
     if(h>=80):
         print("yEs") 
